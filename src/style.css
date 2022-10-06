@@ -54,6 +54,12 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-link:hover {
+  background: #4e45ff;
+  color: white;
 }
 
 .about-link {
@@ -68,6 +74,12 @@ p {
   border-radius: 4px;
   text-decoration: none;
   padding: 20px 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.primary-link:hover {
+  background: #4e45ff;
+  color: white;
 }
 
 .homepage-link {
